@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Quicksand&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #665678;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Phudu', 'cursive';
+    font-size: 45px;
+    margin-bottom: 45px;
+    color: #665678;
+    transition: 0.5s;
+}
+
+.title:hover {
+    color: #BDA0DE;
+}
+
+.titulo-login {
+    margin: 0 0 30px 0;
+    font-size: 25px;                                    
+}
+
+.card {
+    width: 1000px;
+    height: 650px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #9C84B8;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-caracter {
+    display: block;
+    padding: 15px 150px 15px 5px;
+    border: transparent;
+    border-radius: 10px;
+    background: #BDA0DE;
+}
+
+
+.img-tecnology img{
+    width: 400px;
+}
+
+.submitar {
+    width: 200px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background: #DAC8F5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submitar:hover {
+    background: #C4BDDB;
+}
+
+.forgot-pass {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.espaco-caracter {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 1019px){
+    .card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 881px){
+
+.img-tecnology img {
+    width: 0;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+}
+}   
+
